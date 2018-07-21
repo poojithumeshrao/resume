@@ -1,0 +1,277 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.2 (3/5/15) 
+%
+% This template has been downloaded from:
+% https://github.com/mlda065/friggeri-letter
+%
+% Original author: 
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% Modifications by Matthew Davis (matthew@mdavis.xyz)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+% Important notes:
+% This template needs to be compiled with XeLaTeX 
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[print]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+ 
+
+\begin{document} 
+ 
+\header{ \enspace Poojith U Rao~}{}{UG Student} % Your name and current job title/field 
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION 
+%----------------------------------------------------------------------------------------
+
+ 
+\aside{
+\subsubsection{Contact}
+\vspace{3pt}
+%don't display the name in the contact details on the first page
+%because it's up the top%That's why there's the if statement
+\ifx \firstPage \undefined
+   \xdef\firstPage{}
+\else
+Poojith U Rao \\
+~ \\
+\fi
+%Australia \\
+\small
++91 8867680767 \\
+%0412 345 678 \\
+%~   \\
+\footnotesize
+poojithumeshrao@gmail.com \\
+\scriptsize
+github.com/poojithumeshrao 
+~ \\
+~\\
+~\\
+\normalsize
+\subsubsection{Interested in}
+\vspace{3pt}
+Deep Learning \\
+Software Development \\
+~\\
+\subsubsection{Programming}
+\vspace{3pt}
+C,C++,python \\
+8051,AVR assembly \\
+~\\
+\subsubsection{OS Exposure}
+\vspace{3pt}
+Linux \\
+Windows\\
+~\\
+\subsubsection{S/W Exposure}
+\vspace{3pt}
+Tensorflow,MATLAB \\
+Atmel Studio\\
+Android Studio\\
+OpenCV,OpenGL\\
+~\\
+\subsubsection{H/W Exposure}
+\vspace{3pt}
+Raspberry pi \\
+Atmega,8051\\
+FIREBIRD V\\
+TIVA,MSP430\\
+} 
+
+ 
+
+
+
+
+%----------------------------------------------------------------------------------------
+% EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\vspace{2cm}
+\par\vspace{10pt}
+\section{Education}
+
+\begin{entrylist} 
+
+%------------------------------------------------
+
+\entry
+{2015--2019}
+{Bachelor of Engineering in ECE}
+{National Institute of Engineering}
+{CGPA : \textbf{\underline{9.22}}}
+
+
+%------------------------------------------------
+
+\entry
+{2013--2015}  
+{12th Board}
+{Vijaya Vittala PUC}
+{percentage : \textbf{\underline{95.6\%}} \,\,  CET : \textbf{\underline{1180}}} 
+
+
+\entry
+{2010--2013}  
+{10th Board}
+{Marimallappa High School}
+{percentage : \textbf{\underline{95.36\%}}} 
+
+
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+
+%--------------------------------------------------------------------------------------------------------------------
+%	Technical SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+
+%------------------------------------------------
+
+\entry
+{2018}
+{Speech to Text Conversion}
+{}
+{Tensorflow model with conv-resnet and RNN layers to convert English to text}
+{}
+
+\entry
+{2017}
+{Dogs vs Cats}
+{}
+{Multi-layer CNN to distinguish photos of cats and dogs}
+{}
+
+
+\entry
+{2016}
+{PINTOS - 1}
+{Stanford University}
+{Implemented priority scheduling and priority donation in PINTOS }
+{}
+
+
+\entry
+{2018}
+{Gesture Contolled Music System}
+{}
+{Gestures detected by OpenCV library was used to control the music }
+{}
+
+%------------------------------------------------
+
+
+
+\end{entrylist}
+
+
+
+%----------------------------------------------------------------------------------------
+%	Human SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Curriculum Projects}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2018}
+{Automatic object Classisfication}
+{}
+{Robot which classifies large and small blocks using image processing.The robot moves around the room in search of blocks if none are in its vicinity }
+{}
+
+\entry
+{2017}
+{Smart Street Lamps  }
+{}
+{Automatic brightening and dimming of street lamp based on the presence of cars using image processing}
+{}
+
+%------------------------------------------------
+
+
+\entry
+{2018}
+{2 Cars}
+{}
+{Graphics for the "2 cars" game was coded in c++ using glut library}
+{}
+
+\entry
+{2018}
+{Digital TDM}
+{}
+{8-bit data on three channels were multiplexed along with 1 sync bit}
+{}
+
+\entry
+{2017}
+{FM Transmitter}
+{}
+{FM station playing my favourite songs on 94.6Mhz}
+{}
+
+\entry
+{2017}
+{Lab manual for AVR Assembly Language}
+{}
+{}
+{}
+
+
+
+%------------------------------------------------
+
+
+
+\end{entrylist}
+
+
+%----------------------------------------------------------------------------------------
+%	References SECTION 
+%----------------------------------------------------------------------------------------
+
+\section{Other Activities}
+
+
+\begin{itemize}
+	\item Class Representative,Student mentor
+	\item Completed GIAN Course on 'Big Data' with 'A' Grade
+	\item Attended workshops on machine learning, Arduino, AVR
+	\item Love cycling, cooking, music, novels and watching TV Series 
+\end{itemize}
+
+ 
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
