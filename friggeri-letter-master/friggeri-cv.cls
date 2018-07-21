@@ -28,20 +28,20 @@
 \definecolor{blue}{HTML}{6CE0F1}
 
 \ifdefined\@cv@print
-  \colorlet{green}{gray}
-  \colorlet{orange}{gray}
-  \colorlet{purple}{gray}
-  \colorlet{brown}{gray}
-  \colorlet{red}{gray}
-  \colorlet{blue}{gray}
+  \colorlet{green}{black}
+  \colorlet{orange}{black}
+  \colorlet{purple}{black}
+  \colorlet{brown}{black}
+  \colorlet{red}{black}
+  \colorlet{blue}{black}
   \colorlet{fillheader}{white}
-  \colorlet{header}{gray}
+  \colorlet{header}{black}
 \else
-  \colorlet{fillheader}{gray}
+  \colorlet{fillheader}{black}
   \colorlet{header}{white}
 \fi
-\colorlet{textcolor}{gray}
-\colorlet{headercolor}{gray}
+\colorlet{textcolor}{black}
+\colorlet{headercolor}{black}
 
 %%%%%%%%%
 % Fonts %
@@ -156,7 +156,7 @@
   {#1}&\parbox[t]{11.8cm}{%
     \textbf{#2}%
     \hfill%
-    {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
+    {\footnotesize\addfontfeature{Color=black} #3}\\%
     {\positionfont{#4}}
     \ifthenelse{\equal{#4}{}}{}{\\}
     %{#5}\vspace{\parsep}%
@@ -216,7 +216,7 @@
   \par%
   \newblock%
   {%
-    \footnotesize\addfontfeature{Color=lightgray}\itshape%
+    \footnotesize\addfontfeature{Color=black}\itshape%
     \usebibmacro{journal+issuetitle}%
     \setunit{\space}%
     \printfield{pages}%
@@ -236,7 +236,7 @@
   \par%
   \newblock%
   {%
-    \footnotesize\addfontfeature{Color=lightgray}\itshape%
+    \footnotesize\addfontfeature{Color=black}\itshape%
     \printlist{publisher}%
     \setunit*{\addcomma\space}%
     \printfield{note}%
@@ -257,7 +257,7 @@
   \par%
   \newblock%
   {%
-    \footnotesize\addfontfeature{Color=lightgray}%
+    \footnotesize\addfontfeature{Color=black}%
     \printfield{booktitle}%
     \setunit{\addcomma\space}%
     \printfield{year}%
@@ -275,7 +275,7 @@
   \par%
   \newblock%
   {%
-    \footnotesize\addfontfeature{Color=lightgray}\itshape%
+    \footnotesize\addfontfeature{Color=black}\itshape%
     \printfield{booktitle}%
     \setunit*{\addcomma\space}%
     \printfield{note}%
@@ -295,7 +295,7 @@
   \par%
   \newblock%
   {%
-    \footnotesize\addfontfeature{Color=lightgray}\itshape%
+    \footnotesize\addfontfeature{Color=black}\itshape%
     \printfield{type}%
     \setunit{\space}%
     \printfield{number}%
@@ -321,7 +321,7 @@
 % Fix for biblatex 3.3
 \DeclareNameFormat{author}{%
    \nameparts{#1}
-   \small\addfontfeature{Color=lightgray}%
+   \small\addfontfeature{Color=black}%
    \ifblank{\namepartgiven}{}{\namepartgiven\space}#1%
    \ifthenelse{\value{listcount}<\value{liststop}}
      {\addcomma\space}

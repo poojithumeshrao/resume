@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.7.19)  21 JUL 2018 08:29
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.7.19)  21 JUL 2018 19:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1330,7 +1330,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 201--257
 
 
 Overfull \hbox (1.20668pt too wide) has occurred while \output is active
- []\EU1/Roboto-Light(0)/m/n/8 poojithumeshrao@gmail.com
+ []\EU1/Roboto-Light(2)/m/n/8 poojithumeshrao@gmail.com
  []
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
@@ -1350,11 +1350,11 @@ Package logreq Info: Writing requests to 'example-resume.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40241 strings out of 493638
- 754606 string characters out of 6146796
- 1146503 words of memory out of 5000000
- 43172 multiletter control sequences out of 15000+600000
- 5821 words of font info for 70 fonts, out of 8000000 for 9000
+ 40231 strings out of 493638
+ 753079 string characters out of 6146796
+ 1146475 words of memory out of 5000000
+ 43164 multiletter control sequences out of 15000+600000
+ 5813 words of font info for 69 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  73i,11n,71p,10423b,668s stack positions out of 5000i,500n,10000p,200000b,80000s
 
